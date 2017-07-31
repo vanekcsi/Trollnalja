@@ -1,0 +1,3 @@
+navbar - active class active oldaltól függõen
+resp. - nagyjából 1:1 képaránynál a zászlók abszolút nagysága miatt a navbar kissé furcsa
+articles - cikkek címénél a margin nem visz linkre
