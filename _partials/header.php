@@ -20,10 +20,12 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--BOOTSTRAP, JQUERY END-->
+    <?php
+    $base = define('BASE_URL', 'http://localhost:63342/Trollnalja%202.0/');
+    ?>
 
-
-    <link rel="stylesheet" type="text/css" href="_front-end/css/style.css">
-    <script type="text/javascript" src="_front-end/js/js.js"></script>
+    <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL;?>_front-end/css/style.css">
+    <script type="text/javascript" src="<?php echo BASE_URL;?>_front-end/js/js.js"></script>
 
 
     <script type='text/javascript'>
@@ -47,7 +49,6 @@
                 a.href = link + "Sk.php";
             }
         }
-
 
 
     </script>
@@ -85,8 +86,8 @@
         </div><!-- Navbar Header-->
         <div class="collapse navbar-collapse" id="navbar-collapse">
             <span id="flags">
-                <a id="toSlovak" onclick="toSLovak()" > <img class="navbar-right image-responsive" id="zaszloSk" src="_front-end/images/zaszlo_szlovak2.gif"></a>
-                <a id="toHungarian" onclick="toHungarian()" > <img class="navbar-right image-responsive" id="zaszloHu" src="_front-end/images/zaszlo_magyar2.png"></a>
+                <a id="toSlovak" onclick="toSLovak()" > <img class="navbar-right image-responsive" id="zaszloSk" src="<?php echo BASE_URL;?>_front-end/images/zaszlo_szlovak2.gif"></a>
+                <a id="toHungarian" onclick="toHungarian()" > <img class="navbar-right image-responsive" id="zaszloHu" src="<?php echo BASE_URL;?>_front-end/images/zaszlo_magyar2.png"></a>
             <span>
             <ul class="nav navbar-nav">
                 <?php
@@ -94,18 +95,18 @@
                 $newname = substr($name, -6);
                 if ($newname == 'Sk.php'){
 
-                    echo '<li><a href= "indexSk.php">Hlavná stránka</a></li>
+                    echo '<li><a href="indexSk.php">Hlavná stránka</a></li>
                           <li><a href="gallerySk.php">Galéria</a></li>
                           <li><a href="gamesSk.php">Hry</a></li>
                           <li><a href="contactsSk.php">Kontakty</a></li>
-                          <li><a href= "aboutSk.php">O nás</a></li>';
+                          <li><a href="aboutSk.php">O nás</a></li>';
                 }
                 else {
                     echo '<li><a href="index.php">Főoldal</a></li>
                           <li><a href="gallery.php">Galéria</a></li>
                           <li><a href="games.php">Játékok</a></li>
                           <li><a href="contacts.php">Elérhetőségeink</a></li>
-                          <li><a href= "about.php">Rólunk</a></li>';
+                          <li><a href="about.php">Rólunk</a></li>';
                 }
                 ?>
 
