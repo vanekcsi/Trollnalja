@@ -1,19 +1,23 @@
 body {
-    /*background: url("http://www.hdiphone6wallpapers.net/iphone-6-backgrounds/iphone-6-wallpapers-1/iphone-6-wallpapers-hd-944vfjv9-1080x1920.jpg") no-repeat center;
-    background-size: cover;*/
-    /*background-color: #d0e0ff;*/
-
-    /*background: linear-gradient(
+    background: linear-gradient(
         to bottom,
-        #e3e0f3,
-        #e3e0f3,
-        #80a3db,
-        #e3e0f3,
-        #80a3db,
-        #e3e0f3,
-        #80a3db,
-        #e3e0f3
-    );*/
+        #015e07,
+        #157f1c,
+        #48b04f,
+        #76cd7c,
+        #015e07,
+        #157f1c,
+        #48b04f,
+        #76cd7c,
+        #015e07,
+        #157f1c,
+        #48b04f,
+        #76cd7c,
+        #015e07,
+        #157f1c,
+        #48b04f,
+        #76cd7c
+    );
 }
 
 
@@ -29,22 +33,27 @@ h1 {
     margin-top: 40px;
 }
 
-/*.jumbotron {
+.jumbotron {
+            background: linear-gradient(
+            to bottom,
+            #015e07,
+            #157f1c,
+            #48b04f,
+            #76cd7c,
+            #015e07,
+            #157f1c,
+            #48b04f,
+            #76cd7c
+            );
+}
 
-            /*#e3e0f3,
-            #e3e0f3,
-            #80a3db,
-            #e3e0f3,
-            #80a3db,
-            #e3e0f3,
-            #80a3db
-    );
-    background-color: /*#d0e0ff*//*#c6d1ff;
-    border-bottom: 5px solid black;
-}*/
+#secondContainer {
+    border-top: 5px black solid;
+    padding-top: 25px;
+}
 
 /*original*/
-.jumbotron {
+/*.jumbotron {
 background: linear-gradient(
 to bottom,
     #ffffff,
@@ -58,7 +67,7 @@ to bottom,
     #ffffff,
     #58ff2e
 )
-}
+}/*
 
 
 
